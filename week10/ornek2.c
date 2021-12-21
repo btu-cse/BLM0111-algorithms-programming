@@ -2,7 +2,7 @@
 
 void func(int *x){
    for(int i = 0; i < 4; ++i){
-      printf("&x[%d] = %u, value: %d\n", i, &*(x+i), *(x+i));
+      printf("&x[%d] = %p, value: %d\n", i, &*(x+i), *(x+i));
    }
 }
 
